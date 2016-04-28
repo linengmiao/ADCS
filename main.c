@@ -95,7 +95,7 @@ int main(void)
     SYSCTL_RCGCGPIO_R = SYSCTL_RCGCGPIO_R12;
     GPIO_PORTN_DIR_R = 0xFF;
     GPIO_PORTN_DEN_R = 0xFF;
-
+  
 
 	initUART();
     setUARTinterrupt();
